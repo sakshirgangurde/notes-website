@@ -1,0 +1,146 @@
+* {
+	margin: 0px;
+	padding: 0px;
+  box-sizing: border-box;
+}
+body, html {
+  height: 100%;
+}
+body {
+	background-image: url(https://www.teahub.io/photos/full/117-1175838_social-media-wallpaper-background-wallpaper-social-media.jpg);
+	/*background-position: center center;*/
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  background-size: auto;
+}
+.div1 {
+	color: white;
+	border-radius: 20px;
+    backdrop-filter: blur(50px);
+    width: 300px;
+    padding: 5px;
+    margin: 20px;
+    transition: 0.3s;
+    float: left;
+}
+.div2 {
+	color: white;
+	border-radius: 20px;
+    backdrop-filter: blur(50px);
+    width: 300px;
+    padding: 5px;
+    margin: 20px;
+    transition: 0.3s;
+    float: left;
+}
+.div3 {
+	color: white;
+	border-radius: 20px;
+    backdrop-filter: blur(50px);
+    width: 300px;
+    padding: 5px;
+    margin: 20px;
+    transition: 0.3s;
+    float: left;
+}
+.div4 {
+	color: white;
+	border-radius: 20px;
+    backdrop-filter: blur(50px);
+    width: 300px;
+    padding: 5px;
+    margin: 20px;
+    transition: 0.3s;
+    float: left;
+}
+/*.div1:hover {
+	transform: scale(1.02);
+}
+.div2:hover {
+	transform: scale(1.02);
+}
+.div3:hover {
+	transform: scale(1.02);
+}
+.div4:hover {
+	transform: scale(1.02);
+}*/
+section {
+	text-align: center;
+  color: black;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Dongle', sans-serif;
+  font-family: 'Prompt', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media (min-width: 992px) {
+  .div1 {
+    width: 24%;
+    margin: 5px;
+  }
+  .div2 {
+    width: 24%;
+    margin: 5px;
+  }
+  .div3 {
+    width: 24%;
+    margin: 5px;
+  }
+  .div4 {
+    width: 24%;
+    margin: 5px;
+  }
+  .dropdown:hover .dropdown-menu{
+        display: block;
+    }
+    .dropdown-menu{
+        margin-top: 0;
+    }
+    /*.footer {
+      position: fixed;
+      bottom: 0px;
+      width: 100%;
+    }*/
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .div1{
+    width: 48%;
+    margin: 5px;
+  }
+  .div2{
+    width: 48%;
+    margin: 5px;
+  }
+  .div3{
+    width: 48%;
+    clear: left;
+    margin: 5px;
+  }
+  .div4 {
+    width: 48%;
+    margin: 5px;
+  }
+}
+@media (max-width: 767px) {
+  .div1{
+    clear: left;
+    width: 100%;
+    margin: 5px;
+  }
+  .div2{
+    clear: left;
+    width: 100%;
+    margin: 5px;
+  }
+  .div3{
+    clear: left;
+    width: 100%;
+    margin: 5px;
+  }
+  .div4 {
+    clear: left;
+    width: 100%;
+    margin: 5px;
+  }
+}

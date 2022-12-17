@@ -1,0 +1,133 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body, html {
+  height: 100%;
+}
+body {
+	/* background-image: url(https://images6.alphacoders.com/346/thumb-1920-346199.jpg); */
+	/*background-position: center center;*/
+  /* background-repeat: no-repeat; */
+  /*background-attachment: fixed;*/
+  /* background-size: auto; */
+  background-color: #05e8ba;
+  background-image: linear-gradient(315deg, #05e8ba 0%, #087ee1 74%);
+}
+.div1,.div2,.div3,.div4,.div5 {
+	color: white;
+	border-radius: 20px;
+  backdrop-filter: blur(20px);
+  /*width: 300px;*/
+  padding: 5px;
+  margin: 20px;
+  float: left;
+}
+/*.div1:hover {
+	transform: scale(1.02);
+}
+.div2:hover {
+	transform: scale(1.02);
+}
+.div3:hover {
+	transform: scale(1.02);
+}
+.div4:hover {
+	transform: scale(1.02);
+}
+.div5:hover {
+	transform: scale(1.02);
+}*/
+section {
+	text-align: center;
+	font-size: 150%;
+	font-family: 'Bebas Neue', cursive;
+  font-family: 'Dongle', sans-serif;
+  font-family: 'Prompt', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media (min-width: 992px) {
+  .div1 {
+    width: 24%;
+    margin: 5px;
+  }
+  .div2 {
+    width: 24%;
+    margin: 5px;
+  }
+  .div3 {
+    width: 24%;
+    margin: 5px;
+  }
+  .div4 {
+    width: 24%;
+    margin: 5px;
+  }
+  .div5 {
+  	width: 24%;
+  	margin: 5px;
+  }
+  .dropdown:hover .dropdown-menu{
+        display: block;
+    }
+    .dropdown-menu{
+        margin-top: 0;
+    }
+    .footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .div1{
+    width: 48%;
+    margin: 5px;
+  }
+  .div2{
+    width: 48%;
+    margin: 5px;
+  }
+  .div3{
+    width: 48%;
+    margin: 5px;
+  }
+  .div4 {
+    width: 48%;
+    clear: left;
+    margin: 5px;
+  }
+  .div5 {
+  	width: 48%;
+  	margin: 5px;
+  }
+}
+@media (max-width: 767px) {
+  .div1{
+    clear: left;
+    width: 300px;
+    margin-left: 50px;
+  }
+  .div2{
+    clear: left;
+    width: 300px;
+    margin-left: 50px;
+  }
+  .div3{
+    clear: left;
+    width: 300px;
+    margin-left: 50px;
+  }
+  .div4 {
+    clear: left;
+    width: 300px;
+    margin-left: 50px;
+  }
+  .div5 {
+  	clear: left;
+  	width: 300px;
+  	margin-left: 50px;
+  }
+}

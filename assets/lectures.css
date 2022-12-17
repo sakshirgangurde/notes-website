@@ -1,0 +1,159 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body, html {
+  height: 100%;
+}
+
+body {
+	/* background-image: url(https://wallpaperaccess.com/full/829012.jpg); */
+	/* background-image: url(https://images.unsplash.com/photo-1544531585-f14f463149ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80); */
+	background-color: #7f53ac;
+	background: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+	/* background-repeat: no-repeat;
+	background-size: cover; */
+}
+/* .div1 {
+	text-align: center;
+	color: white;
+	border-radius: 20px;
+    backdrop-filter: blur(10px);
+    width: 300px;
+    padding: 5px;
+    margin: 25px;
+} */
+.header {
+	color: white;
+	font-weight: bolder;
+	text-align: center;
+	padding: 5px;
+	margin: 20px;
+}
+.Subjects {
+	display: flex;
+	flex-wrap: center;
+	justify-content: center;
+	align-items: center;
+}
+.content {
+	text-decoration: none;
+	color: white;
+    backdrop-filter: blur(10px);
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    padding: 5px;
+    /* float: left; */
+    overflow: auto;
+    transition: 0.3s;
+	border-radius: 20px 20px 20px 20px;
+	border: 1px solid white;
+}
+.filled {
+    position: relative;
+	margin: 5px;
+    left: 15%;
+    width: 70%;
+    height: 2px;
+    background: rgba(255, 255, 255, 1);
+    transition: 0.25s ease-out;
+}
+.content:hover .filled {
+	position: relative;
+    left: 5%;
+    width: 90%;
+    background: rgba(255, 255, 255, 1);
+    transition: 0.25s ease-out;
+}
+section {
+	text-align: center;
+	color: white;
+	font-size: 150%;
+	font-family: 'Bebas Neue', cursive;
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.link-light:hover {
+	color: #000 !important
+}
+::-webkit-scrollbar {
+    width: 6px;
+    }
+
+    /* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #f2f2f2; 
+    border-radius: 10px;
+    }
+ 
+    /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #E0FFFF; 
+    border-radius: 10px;
+    }
+
+    /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(183, 245, 240); 
+    }
+/* @media (min-width: 992px) {
+	.div2 {
+		width: 32%;
+		margin: 5px;
+	}
+	.div3 {
+		width: 32%;
+		margin: 5px;
+	}
+	.div4 {
+		width: 32%;
+		margin: 5px;
+	}
+}
+.dropdown:hover .dropdown-menu{
+        display: block;
+    }
+    .dropdown-menu{
+        margin-top: 0;
+    }
+@media (min-width: 768px) and (max-width: 991px) {
+	.div2{
+		width: 48%;
+		margin: 5px;
+	}
+	.div3{
+		width: 48%;
+		margin: 5px;
+	}
+	.div4{
+		width: 300px;
+		clear: left;
+		margin: 5px;
+	}
+}
+@media (max-width: 767px) {
+	.div1 {
+		margin-left: 50px;
+	}
+	.div2{
+		clear: left;
+		width: 300px;
+		/*margin: 5px;*/
+		margin-left: 50px;
+	}
+	.div3{
+		clear: left;
+		width: 300px;
+		/*margin: 5px;*/
+		margin-left: 50px;
+	}
+	.div4{
+		clear: left;
+		width: 300px;
+		/*margin: 5px;*/
+		margin-left: 50px;
+	}
+} */
